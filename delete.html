@@ -2,35 +2,63 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Account & Data Deletion</title>
+  <title>Account & Data Deletion Request</title>
 </head>
 <body>
 
   <h1>Account & Data Deletion Request</h1>
 
-  <p>This page explains how users may request deletion of their account and associated data.</p>
+  <p>This page explains how users may request deletion of their account and/or associated data.</p>
 
-  <h2>How to Request Deletion</h2>
-  <p>Users may request deletion of their account and all associated data by contacting:</p>
+  <h2>How to Submit a Request</h2>
 
-  <p><strong>Email:</strong> brotherjimministries@gmail.com</p>
+  <p>Users may request deletion of their account, personal data, or both by contacting:</p>
 
-  <p>Please include the email address used to register the account in your request so we can locate the correct data.</p>
+  <p><strong>Email:</strong> youractualemail@gmail.com</p>
 
-  <h2>Data That Will Be Deleted</h2>
+  <p>Please include the email address used in the application so we can identify the correct account.</p>
+
+  <hr>
+
+  <h2>Types of Deletion Requests</h2>
+
   <ul>
-    <li>Account login information</li>
-    <li>Gameplay progress and scores</li>
-    <li>Virtual in-app currency data (“satoshi points”)</li>
-    <li>Withdrawal request history</li>
-    <li>Any associated records stored in backend systems</li>
+    <li><strong>Account Deletion:</strong> Permanently removes the user account and login credentials.</li>
+    <li><strong>Data Deletion:</strong> Removes user-associated data including gameplay progress, virtual currency (“satoshi points”), and stored records.</li>
+    <li><strong>Full Deletion:</strong> Removes both account and all associated data.</li>
   </ul>
 
-  <h2>Processing Time</h2>
-  <p>Deletion requests are processed manually and will be completed within a reasonable timeframe.</p>
+  <hr>
 
-  <h2>Backend Services</h2>
-  <p>User data is stored using Firebase services and will be removed from all associated databases upon request.</p>
+  <h2>Processing Time & Retention Policy</h2>
+
+  <p>Deletion requests are processed manually through backend systems operated via Firebase services.</p>
+
+  <p>Once a deletion request is submitted, it will be scheduled for processing. For safety and fraud prevention purposes, a <strong>3-day retention period</strong> is applied before permanent deletion.</p>
+
+  <p>During this 3-day period, users may contact us to cancel or reverse a deletion request if it was made in error.</p>
+
+  <p>After the retention period has passed, the data will be permanently deleted and cannot be recovered.</p>
+
+  <hr>
+
+  <h2>Data Stored</h2>
+
+  <ul>
+    <li>Email and authentication data</li>
+    <li>Game progress and scores</li>
+    <li>Virtual in-app currency (“satoshi points”)</li>
+    <li>Withdrawal request history</li>
+    <li>Any associated records stored in Firebase databases</li>
+  </ul>
+
+  <hr>
+
+  <h2>Third-Party Services</h2>
+
+  <p>User data is stored and managed using Firebase backend services.</p>
+
+  <p>All deletion operations include removal from connected Firebase Authentication and database systems.</p>
 
 </body>
 </html>
